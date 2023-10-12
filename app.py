@@ -14,7 +14,7 @@ with open('Toxic_classification_log.pkl', 'rb') as f:
 # Load your dataset (assuming it's in a DataFrame format)
 # Replace this with your actual dataset loading code
 # Example: df = pd.read_csv('your_dataset.csv')
-df = pd.read_csv('toxic.csv', sep=',', encoding='latin-1', error_bad_lines=False, lineterminator='\n',
+df = pd.read_csv('toxic.csv', sep=',', encoding='latin-1', lineterminator='\n',
                 usecols=['id', 'comment_text', 'toxic', 'severe_toxic', 'obscene', 'threat',
                          'insult', 'identity_hate'])
 df.dropna(inplace=True)
