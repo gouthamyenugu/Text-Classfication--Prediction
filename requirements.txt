@@ -1,11 +1,4 @@
-import pandas 
-import numpy
-import matplotlib
-import pickle
-import streamlit as st
-import sklearn
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.feature_extraction.text import TfidfTransformer
-from sklearn.linear_model import LogisticRegression
-from sklearn.multioutput import MultiOutputClassifier
-from sklearn.model_selection import train_test_split
+transformers == 4.30.0
+pandas >= 1.1.2
+scikit-learn >= 0.23.2
+datasets >= 1.0.2
