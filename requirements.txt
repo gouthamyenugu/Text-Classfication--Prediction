@@ -3,6 +3,7 @@ import numpy
 import matplotlib
 import pickle
 import streamlit as st
+import sklearn
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.linear_model import LogisticRegression
