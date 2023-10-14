@@ -17,7 +17,7 @@ with open('classification.pkl', 'rb') as model_file, open('vectorizer.pkl', 'rb'
     vectorizer = pickle.load(vectorizer_file)
 
 # Create a Streamlit web app
-st.title("Multi-Label Comment Classification")
+st.title("Toxic  Comment Classification")
 
 # Create a text input field for user comments
 user_input = st.text_area("Enter your comment here:")
